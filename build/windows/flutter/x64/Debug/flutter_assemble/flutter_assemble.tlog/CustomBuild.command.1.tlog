@@ -1,0 +1,28 @@
+^D:\KULIAH\SEMESTER 4\PEMOGRAMAN MOBILE 2\TUGAS UTS\UI_UTS_APP\BUILD\WINDOWS\CMAKEFILES\5480E7BFB0DA5604082B632B531BDE3B\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter "PROJECT_DIR=D:\Kuliah\Semester 4\Pemograman Mobile 2\Tugas UTS\ui_uts_app" FLUTTER_ROOT=C:\flutter "FLUTTER_EPHEMERAL_DIR=D:\Kuliah\Semester 4\Pemograman Mobile 2\Tugas UTS\ui_uts_app\windows\flutter\ephemeral" "PROJECT_DIR=D:\Kuliah\Semester 4\Pemograman Mobile 2\Tugas UTS\ui_uts_app" "FLUTTER_TARGET=D:\Kuliah\Semester 4\Pemograman Mobile 2\Tugas UTS\ui_uts_app\lib\main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC83NjdkOGM3NWU4OTgwOTFiOTI1NTE5ODAzODMwZmMyNzIxNjU4ZDA3Lw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=D:\Kuliah\Semester 4\Pemograman Mobile 2\Tugas UTS\ui_uts_app\.dart_tool\package_config.json" C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\KULIAH\SEMESTER 4\PEMOGRAMAN MOBILE 2\TUGAS UTS\UI_UTS_APP\BUILD\WINDOWS\CMAKEFILES\DC9D7E64CCD6263DB21BBD57E029492C\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\KULIAH\SEMESTER 4\PEMOGRAMAN MOBILE 2\TUGAS UTS\UI_UTS_APP\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Kuliah/Semester 4/Pemograman Mobile 2/Tugas UTS/ui_uts_app/windows" "-BD:/Kuliah/Semester 4/Pemograman Mobile 2/Tugas UTS/ui_uts_app/build/windows" --check-stamp-file "D:/Kuliah/Semester 4/Pemograman Mobile 2/Tugas UTS/ui_uts_app/build/windows/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

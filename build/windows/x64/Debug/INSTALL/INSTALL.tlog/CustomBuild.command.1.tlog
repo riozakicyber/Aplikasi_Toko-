@@ -1,0 +1,10 @@
+^D:\KULIAH\SEMESTER 4\PEMOGRAMAN MOBILE 2\TUGAS UTS\UI_UTS_APP\BUILD\WINDOWS\CMAKEFILES\9744847DACFFC4D50B2545C3F5A01788\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
